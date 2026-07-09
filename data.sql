@@ -9,7 +9,7 @@ INSERT INTO tb_supplier (company_name, country_of_origin, contact_email) VALUES
 INSERT INTO tb_product (name, species, category, unit_price, supplier_id) VALUES
 ('Premium Salmon Fillet', 'Salmo salar', 'Fish', 25.50, 1),
 ('Whole Atlantic Cod', 'Gadus morhua', 'Fish', 18.20, 1),
-('Jumbo Pacific Shrimp', 'Litopenaeus vannamei', 'Crustacean', 32.00, 2);
+('Jumbo Pacific Shrimp', 'Litopenaeus vannamei', 'Crustacean', 32.00, 2),
 ('Chilean Sea Bass', 'Dissostichus eleginoides', 'Fish', 45.00, 2),
 ('Mediterranean Octopus', 'Octopus vulgaris', 'Mollusk', 28.50, 3);
 

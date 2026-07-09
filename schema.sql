@@ -25,7 +25,7 @@ CREATE TABLE tb_product (
     category VARCHAR(50) NOT NULL,
     supplier_id INT NOT NULL,
     FOREIGN KEY (supplier_id) REFERENCES tb_supplier(id) ON DELETE RESTRICT
-)
+);
 
 -- Creates the inventory table to track stock levels in kilograms
 CREATE TABLE tb_inventory (

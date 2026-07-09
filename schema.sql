@@ -23,6 +23,7 @@ CREATE TABLE tb_product (
     name VARCHAR(100) NOT NULL,
     species VARCHAR(100),
     category VARCHAR(50) NOT NULL,
+    unit_price DECIMAL(10, 2) NOT NULL,
     supplier_id INT NOT NULL,
     FOREIGN KEY (supplier_id) REFERENCES tb_supplier(id) ON DELETE RESTRICT
 );

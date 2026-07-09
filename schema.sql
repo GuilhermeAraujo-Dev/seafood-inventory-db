@@ -3,7 +3,9 @@ CREATE DATABASE seafood_inventory;
 
 -- IMPORTANT: Connect to the 'seafood_inventory' database in your SQL client before running the next commands.
 
--- Drops the table if it already exists to avoid errors during creation
+-- Drops tables in reverse order of creation to respect foreign key constraints
+DROP TABLE IF EXISTS tb_inventory;
+DROP TABLE IF EXISTS tb_product;
 DROP TABLE IF EXISTS tb_supplier;
 
 -- Creates the supplier table to store partner companies information
